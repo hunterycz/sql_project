@@ -7,3 +7,4 @@ Creating a SQL Database, Python Module to handle basic queries, and another Pyth
 3. 
 4. 
 5. 
+6. 
