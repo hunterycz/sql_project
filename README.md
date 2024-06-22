@@ -6,3 +6,4 @@ Creating a SQL Database, Python Module to handle basic queries, and another Pyth
 2. queries: Holds different python modules with queries or even classes with queries built in for the designated database
 3. 
 4. 
+5. 
