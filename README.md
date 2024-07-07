@@ -8,3 +8,4 @@ Creating a SQL Database, Python Module to handle basic queries, and another Pyth
 4. 
 5. 
 6. 
+7. 
