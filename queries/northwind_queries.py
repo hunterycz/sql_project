@@ -48,3 +48,64 @@ WHERE o.ShipCountry IN  ("USA")
 GROUP BY o.ShipName
 LIMIT 5;
 '''
+
+ROUND_AVG_UNIT_PRICE_BY_SUPPLIER = '''
+SELECT *, ROUND(AVG(UnitPrice), 2) AS avg_unit_price
+FROM Products
+GROUP BY SupplierID
+'''
+
+FLOOR_AVG_UNIT_PRICE_BY_SUPPLIER = '''
+SELECT *, FLOOR(AVG(UnitPrice)) AS avg_num_price
+FROM Products
+GROUP BY SupplierID
+'''
+
+CIEL_AVG_UNIT_PRICE_BY_SUPPLIER = '''
+SELECT *, CEIL(AVG(UnitPrice)) AS avg_num_price
+FROM Products
+GROUP BY SupplierID
+'''
+
+AVG_UNIT_PRICE_GREATER_THAN_20 = '''
+SELECT *
+FROM (
+    SELECT *, ROUND(AVG(UnitPrice), 2) AS avg_unit_price
+    FROM Products
+    GROUP BY SupplierID
+    )
+WHERE avg_unit_price > 20
+'''
+
+AVG_UNIT_PRICE_CATEGORIES = '''
+SELECT SupplierID,
+       ROUND(AVG(UnitPrice), 2) AS avg_unit_price,
+       CASE
+           WHEN AVG(UnitPrice) > 20 THEN 'High'
+           WHEN AVG(UnitPrice) > 10 THEN 'Mid'
+           ELSE 'Low'
+       END AS price_category
+FROM Products
+GROUP BY SupplierID;
+'''
+
+PRODUCT_SUPPLIERS_UNITPRICE = '''
+SELECT p.ProductName, s.CompanyName, p.UnitPrice
+FROM Products p
+LEFT JOIN Suppliers s
+ON p.SupplierID = s.SupplierID
+'''
+
+MAX_UNIT_PRICE = '''
+SELECT p.ProductName, s.CompanyName, MAX(p.UnitPrice)
+FROM Products p
+LEFT JOIN Suppliers s
+ON p.SupplierID = s.SupplierID
+'''
+
+MIN_UNIT_PRICE = '''
+SELECT p.ProductName, s.CompanyName, MIN(p.UnitPrice)
+FROM Products p
+LEFT JOIN Suppliers s
+ON p.SupplierID = s.SupplierID
+'''
