@@ -5,15 +5,14 @@ import queries as q
 
 def execute_query(db_name, query):
     """
-    Executes a given SQL query on the specified SQLite database
-    and converts it into a pandas DataFrame object.
+    Executes a given SQL query on the specified SQLite database.
 
     Parameters:
         db_name (str): The name of the SQLite database file.
         query (str): The SQL query to execute.
 
     Returns:
-        result (DataFrame): The result of the query (if any).
+        result: The result of the query (if any).
     """
 
     try:
