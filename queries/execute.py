@@ -1,6 +1,7 @@
 # imports
 import sqlite3
-import queries as q
+import northwind_queries as nw
+import rpg_queries as rpg
 
 
 def execute_query(db_name, query):
@@ -14,6 +15,8 @@ def execute_query(db_name, query):
     Returns:
         result: The result of the query (if any).
     """
+    # Ensure the conn variable defined
+    conn = None
 
     try:
         # Connect to the SQLite database
@@ -42,11 +45,15 @@ def execute_query(db_name, query):
 
 if __name__ == "__main__":
     # save the path to the sqlite3 database
-    DB_PATH = '../databases/rpg/rpg_db.sqlite3'
+    DB_PATH = '~/Documents/sql_project/databases/rpg/rpg_db.sqlite3'
 
     # use the execute_query function
-    rows = execute_query(DB_PATH, q.SELECT_ALL)
+    rows = execute_query(DB_PATH, rpg.SELECT_ALL)
 
-    # print the rows
-    for row in rows:
-        print(row)
+    # check if rows is None before iterating
+    if rows is not None:
+        # print the rows
+        for row in rows:
+            print(row)
+    else:
+        print("No data returned or an error occurred while executing the query.")
