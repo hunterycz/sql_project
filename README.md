@@ -6,4 +6,5 @@ Creating a SQL Database, Python Module to handle basic queries, and another Pyth
 2. queries: Holds different python modules with queries or even classes with queries built in for the designated database
 
 # Current Databases:
-1. rpg_db.sqlite3: A sqlite3 databases thats hold data to a rpg game
+1. rpg_db.sqlite3: A sqlite3 databases thats holds data to a rpg game
+2. northwind.db: A sqlite3 databases that holds data for a Warehouse with Suppliers, Products, Shipping, etc.
