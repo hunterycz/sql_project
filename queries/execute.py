@@ -45,10 +45,11 @@ def execute_query(db_name, query):
 
 if __name__ == "__main__":
     # save the path to the sqlite3 database
-    DB_PATH = '~/Documents/sql_project/databases/rpg/rpg_db.sqlite3'
+    RPG_DB = '../databases/rpg/rpg_db.sqlite3'
+    NORTHWIND_DB = "../databases/northwind/northwind.db"
 
     # use the execute_query function
-    rows = execute_query(DB_PATH, rpg.SELECT_ALL)
+    rows = execute_query(NORTHWIND_DB, nw.NUM_SUPPLIERS_BY_REGION)
 
     # check if rows is None before iterating
     if rows is not None:
