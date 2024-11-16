@@ -84,3 +84,8 @@ FROM (
 				GROUP BY ccc_inv.character_id
 				) AS weapon_counts
 '''
+
+SELECT_ALL_INVENTORY = '''
+SELECT *
+FROM charactercreator_character_inventory
+'''
