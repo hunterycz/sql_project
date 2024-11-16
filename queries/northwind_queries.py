@@ -109,3 +109,8 @@ FROM Products p
 LEFT JOIN Suppliers s
 ON p.SupplierID = s.SupplierID
 '''
+
+SELECT_ALL_PRODUCTS = '''
+SELECT *
+FROM Products
+'''
