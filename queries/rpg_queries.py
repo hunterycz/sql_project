@@ -89,3 +89,8 @@ SELECT_ALL_INVENTORY = '''
 SELECT *
 FROM charactercreator_character_inventory
 '''
+
+SELECT_ALL_WEAPONS = '''
+SELECT *
+FROM armory_weapon
+'''
