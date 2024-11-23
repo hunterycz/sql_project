@@ -94,3 +94,8 @@ SELECT_ALL_WEAPONS = '''
 SELECT *
 FROM armory_weapon
 '''
+
+SELECT_ALL_MAGES = '''
+SELECT *
+FROM charactercreator_mage
+'''
