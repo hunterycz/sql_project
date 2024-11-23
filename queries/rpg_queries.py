@@ -99,3 +99,8 @@ SELECT_ALL_MAGES = '''
 SELECT *
 FROM charactercreator_mage
 '''
+
+SELECT_ALL_THEIVES = '''
+SELECT *
+FROM charactercreator_thief
+'''
