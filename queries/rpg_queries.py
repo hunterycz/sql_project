@@ -109,3 +109,8 @@ SELECT_ALL_CLERIC = '''
 SELECT *
 FROM charactercreator_cleric
 '''
+
+SELECT_ALL_FIGHTER = '''
+SELECT *
+FROM charactercreator_fighter
+'''
