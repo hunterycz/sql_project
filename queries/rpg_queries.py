@@ -104,3 +104,8 @@ SELECT_ALL_THEIVES = '''
 SELECT *
 FROM charactercreator_thief
 '''
+
+SELECT_ALL_CLERIC = '''
+SELECT *
+FROM charactercreator_cleric
+'''
