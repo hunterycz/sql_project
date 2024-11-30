@@ -114,3 +114,8 @@ SELECT_ALL_FIGHTER = '''
 SELECT *
 FROM charactercreator_fighter
 '''
+
+SELECT_ALL_NECROMANCER = '''
+SELECT *
+FROM charactercreator_necromancer
+'''
