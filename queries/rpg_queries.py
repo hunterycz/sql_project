@@ -119,8 +119,3 @@ SELECT_ALL_NECROMANCER = '''
 SELECT *
 FROM charactercreator_necromancer
 '''
-
-SELECT_ALL_ITEMS = '''
-SELECT *
-FROM armory_item
-'''
