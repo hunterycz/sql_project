@@ -142,3 +142,9 @@ SELECT *
 FROM charactercreator_cleric
 LIMIT 5;
 '''
+
+SELECT_ALL_FIGHTER_LIMIT_5 = '''
+SELECT *
+FROM charactercreator_fighter
+LIMIT 5;
+'''
