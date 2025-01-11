@@ -148,3 +148,9 @@ SELECT *
 FROM charactercreator_fighter
 LIMIT 5;
 '''
+
+SELECT_ALL_NECROMANCER_LIMIT_5 = '''
+SELECT *
+FROM charactercreator_necromancer
+LIMIT 5;
+'''
