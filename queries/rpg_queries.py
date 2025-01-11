@@ -124,3 +124,9 @@ SELECT_ALL_ITEMS = '''
 SELECT *
 FROM armory_item
 '''
+
+SELECT_ALL_MAGES_LIMIT_5 = '''
+SELECT *
+FROM charactercreator_mage
+LIMIT 5;
+'''
