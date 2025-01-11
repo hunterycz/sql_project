@@ -130,3 +130,9 @@ SELECT *
 FROM charactercreator_mage
 LIMIT 5;
 '''
+
+SELECT_ALL_THEIVES_LIMIT_5 = '''
+SELECT *
+FROM charactercreator_thief
+LIMIT 5;
+'''
