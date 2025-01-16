@@ -126,3 +126,9 @@ SELECT *
 FROM Suppliers
 LIMIT 5;
 '''
+
+SELECT_ALL_ORDERS_LIMIT_5 = '''
+SELECT *
+FROM Orders
+LIMIT 5;
+'''
