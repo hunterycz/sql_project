@@ -132,3 +132,9 @@ SELECT *
 FROM Orders
 LIMIT 5;
 '''
+
+SELECT_ALL_REGION_LIMIT_5 = '''
+SELECT *
+FROM Region
+LIMIT 5;
+'''
