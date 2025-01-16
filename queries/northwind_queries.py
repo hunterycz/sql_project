@@ -138,3 +138,9 @@ SELECT *
 FROM Region
 LIMIT 5;
 '''
+
+SELECT_ALL_CATEGORIES_LIMIT_5 = '''
+SELECT *
+FROM Categories
+LIMIT 5;
+'''
