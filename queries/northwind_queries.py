@@ -120,3 +120,9 @@ SELECT *
 FROM Products
 LIMIT 5;
 '''
+
+SELECT_ALL_SUPPLIERS_LIMIT_5 = '''
+SELECT *
+FROM Suppliers
+LIMIT 5;
+'''
