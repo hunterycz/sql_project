@@ -114,3 +114,9 @@ SELECT_ALL_PRODUCTS = '''
 SELECT *
 FROM Products
 '''
+
+SELECT_ALL_PRODUCTS_LIMIT_5 = '''
+SELECT *
+FROM Products
+LIMIT 5;
+'''
