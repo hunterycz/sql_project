@@ -164,3 +164,8 @@ SELECT_CUSTOMERS = '''
 SELECT *
 FROM Customers
 '''
+
+SELECT_PRODUCTS = '''
+SELECT *
+FROM Products
+'''
