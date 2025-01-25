@@ -149,3 +149,8 @@ SELECT_REGION = '''
 SELECT *
 FROM Region
 '''
+
+SELECT_CATEGORIES = '''
+SELECT *
+FROM Categories
+'''
