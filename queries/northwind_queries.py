@@ -159,3 +159,8 @@ SELECT_SUPPLIERS = '''
 SELECT *
 FROM Suppliers
 '''
+
+SELECT_CUSTOMERS = '''
+SELECT *
+FROM Customers
+'''
