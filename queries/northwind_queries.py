@@ -154,3 +154,8 @@ SELECT_CATEGORIES = '''
 SELECT *
 FROM Categories
 '''
+
+SELECT_SUPPLIERS = '''
+SELECT *
+FROM Suppliers
+'''
