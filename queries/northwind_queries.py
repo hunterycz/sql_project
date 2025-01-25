@@ -144,3 +144,8 @@ SELECT *
 FROM Categories
 LIMIT 5;
 '''
+
+SELECT_REGION = '''
+SELECT *
+FROM Region
+'''
