@@ -12,3 +12,4 @@ Creating a SQL Database, Python Module to handle basic queries, and another Pyth
 # Current Goals:
 1. Find more sql databases for sql practice
 2. Use leetcode to create higher difficulty sql queries
+3. Find other websites like leetcode
