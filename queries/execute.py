@@ -13,7 +13,7 @@ def execute_query(db_name, query):
         query (str): The SQL query to execute.
 
     Returns:
-        result: The result of the query (if any).
+        result: The result of the query (if any)
     """
     # Ensure the conn variable defined
     conn = None
