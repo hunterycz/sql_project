@@ -148,3 +148,4 @@ SELECT *
 FROM charactercreator_fighter
 LIMIT 5;
 '''
+
