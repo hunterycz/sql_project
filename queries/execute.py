@@ -57,4 +57,4 @@ if __name__ == "__main__":
         for row in rows:
             print(row)
     else:
-        print("No data returned or an error occurred while executing the query.")
+        print("Data not returned or an error occurred while executing the query.")
