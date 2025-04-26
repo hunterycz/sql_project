@@ -58,3 +58,4 @@ if __name__ == "__main__":
             print(row)
     else:
         print("Data not returned or an error occurred while executing the query.")
+
